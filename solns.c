@@ -40,3 +40,32 @@ int min(int a[],int n)
      
      return k ;
 }
+
+
+/* MODE FUCTION DECLARATION */
+
+int mode(int a[],int n) {
+  int mode_value = 0;
+  int max_count = 0;
+  int count = 0;
+  int i,j;
+  
+              for (i=0;i<n;i++)  {
+                      
+                  for (j=0;j<n;j++) {
+                      if (a[j] == a[i])
+                       count++;
+                  }
+                
+                if (count > max_count) {
+                  max_count =count;
+                  mode_value =a[i];
+                }
+              }
+             return mode_value;
+      
+}
+
+
+
+
