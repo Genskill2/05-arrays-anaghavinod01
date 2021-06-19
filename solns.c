@@ -12,3 +12,5 @@ float average(int a[],int n)
    return(sum/n);
 }
 
+/* Maximum function declaration */
+int max
