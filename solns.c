@@ -13,4 +13,30 @@ float average(int a[],int n)
 }
 
 /* Maximum function declaration */
-int max
+int max(int a[],int n){
+     
+     int i,k;
+     k = a[0];
+     for(i=1;i<n;i++)
+        {  
+            if(a[i]>k)
+           k=a[i];
+        }
+      return k;
+  }
+
+
+/*Minimum function declaration*/
+
+int min(int a[],int n)
+{
+  int i,k;
+  k=a[0];
+  for(i=1;1<n;i++)
+       { 
+         if(a[i]<k)
+           k=a[i];
+       }
+     
+     return k ;
+}
