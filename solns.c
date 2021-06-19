@@ -5,13 +5,10 @@
 
 float average_of_five_numbers(int a,int b,int c,int d,int e)
 {  
-  
   float avg;
           
             avg= (a+b+c+d+e)/5.0;
             return avg;
-  
-  
   }
   
   int main (void)
