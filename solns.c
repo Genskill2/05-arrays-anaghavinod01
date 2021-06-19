@@ -32,7 +32,7 @@ int min(int a[],int n)
 {
   int i,k;
   k=a[0];
-  for(i=1;1<n;i++)
+  for(i=1;i<n;i++)
        { 
          if(a[i]<k)
            k=a[i];
